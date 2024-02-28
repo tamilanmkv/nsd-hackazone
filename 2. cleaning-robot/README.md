@@ -88,6 +88,17 @@ public interface RobotApi {
 }
 ```
 
+`Direction` is an enum
+
+```java
+public enum Direction {
+    UP, RIGHT, DOWN, LEFT
+}
+
+```
+
+`Position` is a record class with fields `x` and `y`.
+
 Run your Java code:
 ```
 cd src/main/java
@@ -116,8 +127,3 @@ cd src/main/javascript
 node challenge.js
 ```
 
-## License
-
-Copyright (c) 2024 financial.com
-
-For internal use only. Do not share without permission from financial.com.
